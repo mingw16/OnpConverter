@@ -23,7 +23,11 @@ input[type="text"]
 
 }
 .middle-font{
-
+  font-style: bold;
+  text-align: center;
+  font-size: 2.5vw;
+  color:#3b3b3b;
+  font-family: Playfair Display;
 }
 .small-font{
 
@@ -33,11 +37,17 @@ input[type="text"]
   margin-right: auto;
 }
 .container{
-  margin-top: 25vh;
-  width:100%;
+  margin-top:25vh;
+
 }
 .input{
   width:35vw;
+}
+#result{
+  display: none;
+  border-radius:5px;
+  border: 1.5px solid #c9c9c9;
+  padding:15px;
 }
 #main-text{
   font-style: bold;
